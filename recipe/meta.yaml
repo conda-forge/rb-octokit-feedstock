@@ -1,5 +1,5 @@
 {% set name = "octokit" %}
-{% set version = "4.14.0" %}
+{% set version = "4.22.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 0a12490b754adedd781459fb734432288cc734eca9291fd0c45fa6f1dc7aeaf0
+  sha256: d2c5f848c76a6f78460440a633e2c16afa9458e5fcbd2a76cedb464fe769adda
 
 build:
   noarch: generic
